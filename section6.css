@@ -1,0 +1,147 @@
+body{
+    background:#edf5f2;
+    font-family:"DM Sans",sans-serif;
+}
+
+.faq-section{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    gap:80px;
+    padding:80px 0;
+}
+
+.faq-left{
+    width:35%;
+}
+
+.faq-tag{
+    color:#0f7d69;
+    background:#d6ede9;
+    border:1px solid #0f7d69;
+    border-radius: 25px;
+    padding:8px 18px;
+    
+    margin-bottom:15px;
+}
+
+.faq-left h2{
+    font-size:42px;
+    color:#152223;
+    line-height:1.1;
+}
+
+.faq-left h2 span{
+    color:#0f7d69;
+    font-style:italic;
+    font-family:"Playfair Display", serif; 
+    font-size: 42px;
+    line-height: 1.1;
+}
+
+.faq-left p{
+    color:#758986;
+    margin:18px 0;
+    line-height:1.7;
+}
+
+.faq-left a{
+    text-decoration:none;
+    color:#0f7d69;
+    font-size:14px;
+}
+
+.faq-right{
+    flex:1;
+}
+
+.faq-item{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 0;
+    border-bottom:1px solid #d7e4e0;
+    color:#273435;
+}
+
+.cta-box{
+    width:85%;
+    margin:50px auto;
+    padding:45px 50px;
+    border-radius:18px;
+    background:linear-gradient(90deg,#041818,#0f3d3d);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.cta-tag{
+    color:#7db2a7;
+    font-size:11px;
+    margin-bottom:15px;
+}
+
+.cta-box h2{
+    color:white;
+    font-size:42px;
+    line-height:1.1;
+}
+
+.cta-box h2 span{
+    color:#7fd6c6;
+    font-style:italic;
+    font-family:"Playfair Display", serif; 
+}
+
+.cta-box p{
+    color:#c6d8d5;
+    margin-top:15px;
+}
+
+.cta-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.cta-box .start{
+    background: black;
+    color:#3cbca7 ;
+    border: 1px solid #3d5d5d;
+    padding:12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.start-btn{
+    background:#249683;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.demo-btn{
+    background:transparent;
+    border:1px solid #3d5d5d;
+    color:white;
+    padding:12px 24px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+    .faq-section,
+    .cta-box{
+        flex-direction:column;
+    }
+
+    .faq-left{
+        width:100%;
+    }
+
+    .cta-box h2{
+        font-size:32px;
+    }
+}

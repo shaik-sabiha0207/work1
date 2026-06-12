@@ -1,0 +1,168 @@
+.footer{
+    background:linear-gradient(to right,#021515,#073331,#021515);
+    padding:70px 90px 25px;
+    color:#fff;
+    font-family:"DM Sans",sans-serif;
+}
+
+.top2{
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo2{
+    width:260px;
+}
+
+.logo2 p{
+    color:#8ea3a0;
+    line-height:1.8;
+    margin:20px 0;
+}
+.top2 .logo2 h3 span{
+    color:#0f7d69
+}
+
+.icons2{
+    display:flex;
+    gap:10px;
+}
+
+.icons2 span{
+    width:34px;
+    height:34px;
+    border:1px solid #284845;
+    border-radius:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#9db2af;
+}
+
+.links2{
+    display:flex;
+    gap:100px;
+}
+
+.links2 div{
+    display:flex;
+    flex-direction:column;
+}
+
+.links2 h4{
+    color:#69827e;
+    margin-bottom:15px;
+    font-size:12px;
+}
+
+.links2 a{
+    color:#b3c4c1;
+    text-decoration:none;
+    margin-bottom:12px;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #1f3d3a;
+    margin:50px 0 20px;
+}
+
+.bottom2{
+    display:flex;
+    justify-content:space-between;
+    color:#6f8783;
+    font-size:14px;
+}
+
+.bottom2 div{
+    display:flex;
+    gap:25px;
+}
+
+.bottom2 a{
+    color:#6f8783;
+    text-decoration:none;
+}
+/* Tablet */
+@media (max-width: 992px){
+
+    .footer{
+        padding:60px 40px 25px;
+    }
+
+    .top2{
+        flex-direction:column;
+        gap:40px;
+    }
+
+    .links2{
+        gap:50px;
+        flex-wrap:wrap;
+    }
+
+    .bottom2{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .bottom2 div{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .footer{
+        padding:50px 20px 20px;
+    }
+
+    .logo2{
+        width:100%;
+    }
+
+    .links2{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .links2 div{
+        width:100%;
+    }
+
+    .bottom2{
+        font-size:13px;
+    }
+
+    .bottom2 div{
+        gap:15px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px){
+
+    .icons2{
+        flex-wrap:wrap;
+    }
+
+    .icons2 span{
+        width:30px;
+        height:30px;
+        font-size:12px;
+    }
+
+    .links2 h4{
+        font-size:11px;
+    }
+
+    .links2 a{
+        font-size:14px;
+    }
+
+    .bottom2{
+        font-size:12px;
+    }
+}
