@@ -72,7 +72,22 @@ body{
     font-size:15px;
     color:#8aa09c;
 }
+.pricing-card h2 .doller3{
+    color:#7f9894;
+    font-size: 25px;
+}
+.pricing-card h2 .doller1{
+    columns:#7f9894; 
+    font-size: 25px;
+}
+.pricing-card h2 .doller2{
+    color:#7f9894;
+    font-size: 25px;
+}
+.pricing-card h2 .middle{
+    color:#7f9894;
 
+}
 .pricing-card ul{
     list-style:none;
     margin:20px 0;
@@ -106,9 +121,11 @@ body{
     transform:translateY(-15px);
 }
 
-.pricing-active h2,
+.pricing-active h2{
+    color: #fff;
+}
 .pricing-active h5{
-    color:#fff;
+    color:#5f7470;;
 }
 
 .pricing-active li{
@@ -119,7 +136,9 @@ body{
     background:#0f7d69;
     color:#fff;
 }
-
+.pricing-active  h2 span{
+    color:#fff ;
+}
 .pricing-popular{
     position:absolute;
     top:-12px;

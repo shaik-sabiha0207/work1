@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#edf5f2;
+    background:#EDF5F2;
 }
 
 .testimonials{
@@ -18,8 +18,8 @@ body{
     margin-bottom:50px;
 }
 
-.line{
-    width:60px;
+.line8{
+    width:100px;
     height:2px;
     background:#9fc3bc;
     margin:0 auto 20px;
